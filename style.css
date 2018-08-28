@@ -1,0 +1,65 @@
+body {
+  width: 700px;
+  margin: auto;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.profile-data {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.profile-data  h1 {
+  margin-bottom: 0;
+}
+
+.profile-data  p {
+  margin-top: 0;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  display: inline-block;
+  overflow: hidden;
+  background: #f3f6f9;
+  border-radius: 50%;
+}
+
+.circle img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+figure {
+  margin: 0;
+}
+
+.projects {
+  margin-top: 30px;
+  display: flex;
+}
+
+.project {
+  max-width: 200px;
+}
+
+figure img {
+  height: 130px;
+}
